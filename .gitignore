@@ -1,0 +1,27 @@
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Python
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Node.js
+node_modules/
+dist/
+
+# Face images and biometric data
+uploads/
+*.npy
+
+# Logs and temporary files
+*.log
+.DS_Store
+
+# Local database backups
+*.sql
+*.db
